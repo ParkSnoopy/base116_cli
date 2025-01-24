@@ -10,6 +10,9 @@ keywords = ["cli", "encode", "decode", "base64", "base85"]
 
 [dependencies]
 base116 = "0.1"
+clap = { version = "4.5", features = ["derive"] }
+clio = { version = "0.3", features = ["clap-parse"] }
 
 [[bin]]
 name = "base116"
+path = "src/main.rs"
