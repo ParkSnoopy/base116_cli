@@ -6,6 +6,13 @@ description = "CLI binary for crate base116"
 repository = "https://github.com/ParkSnoopy/base116_cli"
 license = "AGPL-3.0-or-later"
 keywords = ["cli", "encode", "decode", "base64", "base85"]
+authors = [
+    "ParkSnoopy <117149837+ParkSnoopy@users.noreply.github.com>"
+]
+
+[profile.release]
+strip = false
+lto = true
 
 [dependencies]
 base116 = "0.1"
