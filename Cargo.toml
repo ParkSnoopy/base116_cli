@@ -2,7 +2,6 @@
 name = "base116_cli"
 version = "0.1.0"
 edition = "2024"
-rust-version = "1.86"
 description = "CLI binary for crate base116"
 repository = "https://github.com/ParkSnoopy/base116_cli"
 license = "AGPL-3.0-or-later"
