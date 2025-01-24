@@ -1,26 +1,15 @@
 [package]
-name = "base116"
-version = "0.1.8"
-edition = "2018"
-rust-version = "1.55"
-description = "Like Base85… but 31 more."
-documentation = "https://docs.rs/base116"
-readme = "misc/crate-readme.md"
-repository = "https://github.com/taylordotfish/base116"
+name = "base116_cli"
+version = "0.1.0"
+edition = "2024"
+rust-version = "1.86"
+description = "CLI binary for crate base116"
+repository = "https://github.com/ParkSnoopy/base116_cli"
 license = "AGPL-3.0-or-later"
-keywords = ["base", "encoding", "base64", "base85"]
-categories = ["command-line-utilities", "no-std"]
+keywords = ["cli", "encode", "decode", "base64", "base85"]
 
-[features]
-default = ["std"]
-alloc = []
-std = ["alloc"]
-cli-panic = []
-doc_cfg = []
+[dependencies]
+base116 = "0.1"
 
 [[bin]]
 name = "base116"
-required-features = ["alloc"]
-
-[package.metadata.docs.rs]
-features = ["doc_cfg"]
