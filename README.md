@@ -15,6 +15,6 @@ cargo install base116_cli
 Usage
 -----
 
-See `base116 --help` for more information.
+See `b116 --help` for more information.
 
 `Ctrl+Z` to stop reading from stdin.
